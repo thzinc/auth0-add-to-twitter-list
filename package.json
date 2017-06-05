@@ -1,0 +1,11 @@
+{
+  "name": "auth0-add-to-twitter-list",
+  "version": "1.0.0",
+  "description": "Webhook to add a Twitter user to a list",
+  "main": "index.js",
+  "author": "Daniel James",
+  "license": "MIT",
+  "dependencies": {
+    "twitter": "^1.7.0"
+  }
+}
