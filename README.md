@@ -1,10 +1,8 @@
-Webhook for adding a user to a Twitter list
-===========================================
+# Webhook for adding a user to a Twitter list
 
 I wanted a webhook that I could call from [IFTTT](https://ifttt.org) to add Twitter users from a search into a list. At [.NET Fringe 2017](http://dotnetfringe.org), I got to attend an Auth0 Webtask workshop by [Glenn Block](https://twitter.com/gblock), which feels like a really nice way to handle this.
 
-How to use
-----------
+## Quickstart
 
 * Sign up for [Auth0 Webtasks](https://webtask.io/make)
 * Grab the Webtask CLI: `npm install wt-cli -g`
@@ -18,3 +16,20 @@ How to use
     * Use the `slug` querystring parameter for the Twitter list's slug
     * Use the `user` querystring parameter for the Twitter user to add to the list
     * Example: `https://wt-somethinggoeshere-0.run.webtask.io/auth0-add-to-twitter-list?slug=net-fringe&user={{UserName}}`
+
+## Code of Conduct
+
+We are committed to fostering an open and welcoming environment. Please read our [code of conduct](CODE_OF_CONDUCT.md) before participating in or contributing to this project.
+
+## Contributing
+
+We welcome contributions and collaboration on this project. Please read our [contributor's guide](CONTRIBUTING.md) to understand how best to work with us.
+
+## License and Authors
+
+[![Daniel James logo](https://secure.gravatar.com/avatar/eaeac922b9f3cc9fd18cb9629b9e79f6.png?size=16) Daniel James](https://github.com/thzinc)
+
+[![license](https://img.shields.io/github/license/thzinc/auth0-add-to-twitter-list.svg)](https://github.com/thzinc/auth0-add-to-twitter-list/blob/master/LICENSE)
+[![GitHub contributors](https://img.shields.io/github/contributors/thzinc/auth0-add-to-twitter-list.svg)](https://github.com/thzinc/auth0-add-to-twitter-list/graphs/contributors)
+
+This software is made available by Daniel James under the MIT license.
